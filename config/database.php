@@ -77,7 +77,14 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
         ],
-
+        'mongodb' => [
+            'driver'   => 'mongodb',
+            'host'     => '192.168.0.119',
+            'port'     => 27017,
+            'database' => 'myzx',
+            'username' => '',
+            'password' => '',
+        ],
     ],
 
     /*
